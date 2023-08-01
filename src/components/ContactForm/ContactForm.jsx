@@ -2,10 +2,7 @@ import { useState } from 'react';
 import css from './ContactForm.module.css';
 import { nanoid } from 'nanoid'
 export default function ContactForm  ({onSubmit}) {
-/*  state = {
-    name: '',
-    number: '',
-  }; */
+
 
 const [state, setState] = useState({
   name: '',
